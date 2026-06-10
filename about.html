@@ -3,127 +3,228 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>오시는 길 & 가격 정보 | 등촌 코인노래방 상세 매뉴얼</title>
-  <meta name="description" content="가성비 끝판왕 코노의 성지를 짓기 위해 발로 뛰었음. 나 역시 학창 시절부터 혼코노 즐기던 매니아였는데, 등촌 학원가 근처 코노 갔다가 마이크 지직거리고 에코 썩어있어서 삑사리 지대 나고 개쪽팔렸던 한 서린 추억이 있다. 그때 맹세했지. 내 강서 마포 바닥에 동전 하나...">
-  <link rel="canonical" href="https://t3b05-dc-coin-sale-1.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="street-brutalist">
-  <meta name="bpaas-design-theme" content="kr-street-brutalist">
+  <title>정보 | 등촌 코인노래방 할인 — 업소 소개</title>
+  <meta name="description" content="등촌 코인노래방 할인 전문점의 상세 정보. 1곡 100원 파격가, 최신 기기, 방음 부스, 혼코인/듀엣. 전화 010-6279-0862. 등촌동 코인노래방 공식 정보.">
+  <meta name="keywords" content="등촌 코인노래방 정보, 등촌동 노래방 주소, 등촌역 코인노래방 영업시간, 등촌 노래방 가격, 코인노래방 시설, 대표번호">
+  <link rel="canonical" href="https://t3b05-dc-coin-sale-1.vercel.app/info">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-neon-void">
+  <meta property="og:title" content="등촌 코인노래방 할인 | 공식 정보 및 안내">
+  <meta property="og:description" content="등촌 코인노래방 할인 전문점의 상세 정보. 위치, 영업시간, 시설, 가격 정책을 확인하세요.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://t3b05-dc-coin-sale-1.vercel.app/info">
+  <meta property="og:image" content="https://t3b05-dc-coin-sale-1.vercel.app/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="등촌 코인노래방 할인 | 공식 정보">
+  <meta name="twitter:description" content="등촌 코인노래방 할인 전문점 상세 정보. 1곡 100원, 최신 기기.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='28' font-size='28'%3E🎤%3C/text%3E%3C/svg%3E">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-      :root {
-        --bg: #ffffff;
-        --fg: #000000;
-        --accent: #ff5500;
-        --border: #000000;
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Inter', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    /* ===== TYPOGRAPHY ===== */
+    h1, h2, h3, h4, p, li, a, blockquote { font-weight: 400; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); font-weight: 700; letter-spacing: -0.02em; color: #ff2a6d; text-transform: uppercase; }
+    h2 { font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 600; margin-top: 2.5rem; margin-bottom: 1rem; color: #05d9e8; border-bottom: 2px solid #ff2a6d55; padding-bottom: 0.25rem; }
+    h3 { font-size: 1.2rem; font-weight: 600; color: #ff2a6d; margin-top: 1.5rem; }
+    p, li, blockquote { font-size: 1rem; color: #c0c0c0; }
+    a { color: #05d9e8; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+    a:hover, a:focus { border-bottom-color: #ff2a6d; color: #ff2a6d; }
+    /* ===== LAYOUT & SPACING ===== */
+    .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+    @media (min-width: 768px) { .container { padding: 2rem 3rem; } }
+    section { margin-bottom: 3rem; }
+    .grid-2 { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+    @media (min-width: 768px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      padding: 1.5rem;
+      border-radius: 0;
+      box-shadow: 0 4px 20px rgba(255, 42, 109, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 30px rgba(255, 42, 109, 0.2); }
+    .card h3 { margin-top: 0; }
+    .card p { margin-top: 0.5rem; }
+    .highlight { color: #05d9e8; font-weight: 600; }
+    .badge {
+      display: inline-block;
+      background: #ff2a6d;
+      color: #0a0a0a;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-right: 0.5rem;
+    }
+    /* ===== NAVIGATION ===== */
+    nav { 
+      background: #0a0a0a; 
+      border-bottom: 1px solid #ff2a6d33; 
+      position: sticky; 
+      top: 0; 
+      z-index: 100; 
+      padding: 0.8rem 1.5rem;
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+    }
+    .nav-logo { font-size: 1.2rem; font-weight: 700; color: #ff2a6d; letter-spacing: 0.1em; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: #c0c0c0; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .nav-links a:hover { color: #ff2a6d; }
+    .hamburger-menu {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      width: 28px;
+      height: 20px;
+      justify-content: space-between;
+    }
+    .hamburger-menu span { display: block; height: 3px; background: #ff2a6d; border-radius: 2px; }
+    @media (max-width: 767px) {
+      .hamburger-menu { display: flex; }
+      .nav-links { 
+        display: none; 
+        position: absolute; 
+        top: 100%; 
+        left: 0; 
+        width: 100%; 
+        background: #0a0a0a; 
+        flex-direction: column; 
+        padding: 1rem; 
+        border-bottom: 1px solid #ff2a6d55;
       }
-      body { background: var(--bg); color: var(--fg); font-family: 'Pretendard', sans-serif; line-height: 1.7; }
-      header { border-bottom: 4px solid var(--border); padding: 20px 0; background: #ffff00; }
-      .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
-      .hero { padding: 80px 0; border-bottom: 4px solid var(--border); text-align: left; background: #f0f0f0; }
-      .hero h1 { font-size: 4rem; font-weight: 900; text-transform: uppercase; -webkit-text-stroke: 1px #000; color: var(--border); margin-bottom: 20px; transform: rotate(-1deg); }
-      .btn { display: inline-block; padding: 15px 35px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 900; border: 4px solid var(--border); box-shadow: 6px 6px 0px #000; transition: all 0.1s; }
-      .btn:hover { transform: translate(3px, 3px); box-shadow: 3px 3px 0px #000; }
-      .content-section { padding: 60px 0; border-bottom: 4px solid var(--border); }
-      .card { border: 4px solid var(--border); padding: 30px; background: #fff; box-shadow: 8px 8px 0px #000; margin-bottom: 40px; }
-      .review-grid { display: grid; grid-template-columns: 1fr; gap: 30px; margin-top: 40px; }
-      .review-card { border: 4px solid var(--border); padding: 24px; background: #fff; box-shadow: 6px 6px 0px #000; }
-    
-    table { width: 100%; border-collapse: collapse; margin-top: 24px; border: 1px solid var(--border); }
-    th, td { padding: 12px; border: 1px solid var(--border); text-align: center; }
-    th { background: rgba(0,0,0,0.02); font-weight: bold; }
-    header .container { display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 900; text-decoration: none; color: var(--fg); letter-spacing: -0.05em; }
-    nav a { color: var(--fg); text-decoration: none; font-weight: 700; margin-left: 12px; font-size: 0.9rem; }
-    nav a:hover { color: var(--accent); }
-    footer { border-top: 1px solid var(--border); padding: 40px 0; background: rgba(0,0,0,0.01); color: var(--muted); font-size: 0.85rem; }
-    footer .container { display: flex; justify-content: space-between; align-items: center; }
-    footer a { color: var(--muted); text-decoration: none; font-weight: bold; }
-    footer a:hover { color: var(--accent); }
-    .p-bar { background: var(--accent); color: #fff; padding: 10px 0; text-align: center; font-weight: 700; font-size: 0.95rem; }
-    .p-bar a { color: #fff; text-decoration: underline; }
+      .nav-links.active { display: flex; }
+    }
+    /* ===== FAQ ===== */
+    .faq-item { margin-bottom: 1rem; border-bottom: 1px solid #333; padding-bottom: 0.75rem; }
+    .faq-question { font-weight: 600; color: #05d9e8; cursor: pointer; display: flex; justify-content: space-between; }
+    .faq-answer { margin-top: 0.5rem; font-size: 0.95rem; color: #b0b0b0; }
+    /* ===== TEL LINK ===== */
+    .tel-link { color: #ff2a6d; font-weight: 700; font-size: 1.2rem; border-bottom: 2px solid #ff2a6d; display: inline-block; margin: 0.5rem 0; }
+    .tel-link:hover { color: #05d9e8; border-color: #05d9e8; }
+    /* ===== RESPONSIVE 768 ===== */
+    @media (min-width: 768px) {
+      .grid-2 { gap: 2.5rem; }
+      .container { padding: 2.5rem 4rem; }
+    }
+    /* ===== JSON-LD ===== */
+    .json-ld-localbusiness { display: none; }
+    /* ===== MISC ===== */
+    hr { border: none; border-top: 1px solid #333; margin: 2rem 0; }
+    .subtitle { font-size: 0.95rem; color: #888; margin-bottom: 2rem; }
   </style>
 </head>
 <body>
-  <div class="p-bar">🚨 형님들 눈탱이 없는 리얼 정찰제 문의: <a href="tel:010-6279-0862">📞 010-6279-0862</a> (24시간 실시간 대기)</div>
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">등촌.코인노래방</a>
-      <nav><a href="index.html">홈</a> | <a href="about.html">정보</a></nav>
+  <nav>
+    <div class="nav-logo">🎤 등촌코인</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/">홈</a></li>
+      <li><a href="/info">정보</a></li>
+      <li><a href="/price">가격</a></li>
+      <li><a href="/review">리뷰</a></li>
+      <li><a href="tel:01062790862" class="tel-link">010-6279-0862</a></li>
+    </ul>
+    <div class="hamburger-menu" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
     </div>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>오시는 길 &amp; 투명한 가격 안내</h1>
-        <p style="font-size:1.25rem; opacity:0.9;">형이 직접 엄선한 최강의 코스 라인업과 100% 실명 정찰제 가격 테이블</p>
-      </div>
+  </nav>
+
+  <main class="container">
+    <section>
+      <h1>등촌 코인노래방 할인<br>공식 정보</h1>
+      <p class="subtitle">서울특별시 강서구 등촌동 — 2025년 업데이트</p>
+      <p>저희 등촌 코인노래방 할인 전문점은 <span class="highlight">1곡 100원</span>부터 시작하는 파격적인 가격 정책과 최신 음향 기기로 등촌 지역 1위 코인노래방입니다. 아래에 업소의 상세 정보를 제공합니다.</p>
     </section>
-    
-    <section class="content-section">
-      <div class="container">
+
+    <section>
+      <h2>📍 위치 및 연락처</h2>
+      <div class="grid-2">
         <div class="card">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">형이 샵을 직접 엄선하고 관리하게 된 리얼 스토리</h2>
-          <p style="font-size:1.1rem; line-height:1.9; margin-bottom:20px;">가성비 끝판왕 코노의 성지를 짓기 위해 발로 뛰었음. 나 역시 학창 시절부터 혼코노 즐기던 매니아였는데, 등촌 학원가 근처 코노 갔다가 마이크 지직거리고 에코 썩어있어서 삑사리 지대 나고 개쪽팔렸던 한 서린 추억이 있다. 그때 맹세했지. 내 강서 마포 바닥에 동전 하나도 귀하게 쓰이는 역대급 하이엔드 코인노래방을 만들겠다고. 그렇게 다듬어진 예약 라인이 010-6279-0862다.</p>
+          <h3>주소</h3>
+          <p>서울특별시 강서구 등촌동 658-1<br>지하 1층 (등촌역 3번 출구 도보 3분)</p>
         </div>
-
-        <div class="card" style="margin-top:40px;">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">100% 투명 정찰제 요금표</h2>
-          <p style="font-size:1.05rem; color:var(--muted); margin-bottom:15px;">※ 카드로 결제하시든 현금으로 결제하시든 예약 특가 그대로 완벽 적용됩니다. 추가요금 요구 시 형이 전액 환불해 줌.</p>
-          
-        <table>
-          <thead>
-            <tr><th>코인 할인 패키지</th><th>곡 수/시간</th><th>기본가</th><th>예약 할인가 (010-6279-0862)</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>동전 코인 패키지 A</td><td>12곡</td><td>5,000원</td><td><strong>4,000원</strong></td></tr>
-            <tr><td>동전 대량 패키지 B</td><td>30곡</td><td>10,000원</td><td><strong>8,000원</strong></td></tr>
-            <tr><td>시간제 단체 패키지 C</td><td>60분 무제한</td><td>15,000원</td><td><strong>12,000원</strong></td></tr>
-          </tbody>
-        </table>
-      
-          <div style="margin-top:30px; text-align:center;">
-            <a href="tel:010-6279-0862" class="btn">실시간 견적 및 즉시 예약: 📞 010-6279-0862</a>
-          </div>
+        <div class="card">
+          <h3>대표 전화</h3>
+          <p><a href="tel:01062790862" class="tel-link">010-6279-0862</a></p>
+          <p>문자/카카오톡 예약 가능</p>
         </div>
-
-        <div class="card" style="margin-top:40px;">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">상세 위치 시그널 및 시설 안내</h2>
-          <p style="font-size:1.1rem; line-height:1.9;">상세 찾아오시는 길: 등촌 지하철역 출구에서 도보 30초 컷 상가 2층에 위치해 있어 눈비 와도 뛰어가기 너무 편함. 주변 유명 코스들과 직결되어 있어서 데이트 코스 마지막 방점으로 완벽하다.</p>
+        <div class="card">
+          <h3>영업 시간</h3>
+          <p>평일: 10:00 – 02:00 (익일)<br>주말/공휴일: 10:00 – 04:00 (익일)</p>
         </div>
-
-        <div style="margin-top:60px;">
-          <h2 style="font-size:2rem; margin-bottom:24px; color:var(--accent);">단골 고객 추천 실시간 찐소감</h2>
-          <div class="review-grid">
-    <div class="review-card">
-      <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
-        <strong>최요한</strong>
-        <span style="color:#e0a82e;">⭐⭐⭐⭐⭐</span>
-      </div>
-      <p style="font-size:0.9rem; color:var(--muted);">위생 상태가 코노 중에 진짜 탑입니다. 갈 때마다 소독 깨끗이 되어 있어서 믿고 부릅니다.</p>
-      <small style="display:block; margin-top:10px; color:#bbb;">작성일: 2026-05-23</small>
-    </div>
-  
-    <div class="review-card">
-      <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
-        <strong>백호진</strong>
-        <span style="color:#e0a82e;">⭐⭐⭐⭐⭐</span>
-      </div>
-      <p style="font-size:0.9rem; color:var(--muted);">당산 코인노래방 할인 꿀 정보 진짜 대박이네요. 실장님 010-6279-0862 연락하니 엄청 친절하십니다.</p>
-      <small style="display:block; margin-top:10px; color:#bbb;">작성일: 2026-05-27</small>
-    </div>
-  </div>
+        <div class="card">
+          <h3>편의 시설</h3>
+          <p>무료 와이파이 / 충전기 / 음료 자판기<br>방음 부스 완비 / 최대 4인실</p>
         </div>
       </div>
     </section>
-  </main>
-  <footer>
-    <div class="container">
-      <div>&copy; 2026 등촌 코인노래방 스페셜 가이드. All Rights Reserved.</div>
-      <div>
-        <a href="index.html">홈</a> | <a href="about.html">정보</a>
+
+    <section>
+      <h2>💰 가격 정책 (2025년 기준)</h2>
+      <p>모든 가격은 부가세 포함이며, 등촌 지역 최저가를 보장합니다.</p>
+      <ul style="margin-top:1rem; list-style:square; padding-left:1.5rem;">
+        <li><strong>1곡 기본</strong>: 100원 (1인 기준, 평일 오후 6시 전)</li>
+        <li><strong>1곡 기본</strong>: 200원 (주말/야간)</li>
+        <li><strong>30분 자유 이용</strong>: 1,500원 (시간 제한 없음)</li>
+        <li><strong>1시간 자유 이용</strong>: 2,500원 (혼코인/듀엣 동일)</li>
+        <li><strong>추가 10분당</strong>: 500원</li>
+      </ul>
+      <p class="highlight" style="margin-top:1rem;">* 매월 첫째 주 수요일은 모든 이용권 20% 할인</p>
+    </section>
+
+    <section>
+      <h2>🎤 시설 및 장비</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>음향 시스템</h3>
+          <p>JBL 전문 스피커 + 1200W 앰프<br>고급 유선 마이크 2개 + 무선 마이크 1개</p>
+        </div>
+        <div class="card">
+          <h3>화면/조명</h3>
+          <p>65인치 4K LED<br>LED 무빙 헤드 2대 + RGB 파 캔</p>
+        </div>
+        <div class="card">
+          <h3>곡 수</h3>
+          <p>금영 KYX-5000 기반 12만 곡<br>매주 월요일 업데이트 (신곡 50곡)</p>
+        </div>
+        <div class="card">
+          <h3>방음 부스</h3>
+          <p>2중 방음 처리 / 환기 시스템<br>개인 물품 보관함</p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </section>
+
+    <section>
+      <h2>❓ 자주 묻는 질문 (FAQ)</h2>
+      <div class="faq-item">
+        <div class="faq-question">Q. 혼코인도 가능한가요?</div>
+        <div class="faq-answer">네, 1인 전용 부스가 4개 있습니다. 추가 요금 없이 동일 가격으로 이용 가능합니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Q. 듀엣은 따로 예약해야 하나요?</div>
+        <div class="faq-answer">예약 없이 방문 가능하나, 주말에는 전화 사전 예약을 권장합니다. 듀엣 부스는 최대 4인까지 가능합니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Q. 할인 카드나 제휴 혜택이 있나요?</div>
+        <div class="faq-answer">등촌 지역 상권 제휴카드 소지 시 10% 추가 할인 (중복 적용 불가). 자세한 사항은 전화 문의 바랍니다.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Q. 주차가 가능한가요?</div>
+        <div class="faq-answer">건물 지하 1층 주차장 이용 가능 (2시간 무료, 이후 10분당 500원). 20시 이후 주차 무료.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Q. 미성년자도 이용할 수 있나
 </body>
 </html>
